@@ -30,6 +30,10 @@ class Navigation extends Component {
             this.setState({
                 icon: close
             })
+        } else {
+            this.setState({
+                icon: menu
+            })
         }
     }
 
